@@ -67,3 +67,27 @@ function vowelsCounts(word) {
 
   return vowelsToCounts;
 }
+
+// Time Complexity: O(n) based off word being unknown size.
+  // includes method is constant O(1)
+  // char in vowelsToCounts is a key look up which is constant O(1)
+
+
+
+// Step Three: Short answer»
+// Answer the following questions
+
+// True or false: n2 + n is O(n2).
+  // False. Arithmetic operation -- Constant
+// True or false: n2 * n is O(n^3).
+  // False. Arithemetic operation --- Constant
+// True or false: n2 + n is O(n).
+  //
+// What’s the time complexity of the .indexOf array method?
+// What’s the time complexity of the .includes array method?
+// What’s the time complexity of the .every array method?
+// What’s the time complexity of the .sort array method?
+// What’s the time complexity of the .unshift array method?
+// What’s the time complexity of the .push array method?
+// What’s the time complexity of the .pop array method?
+// What’s the time complexity of the Object.keys() function?
