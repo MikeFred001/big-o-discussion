@@ -1,5 +1,21 @@
 "use strict";
 
+// Step 1
+// Simplify the following big O expressions as much as possible:
+
+
+// O(n + 10) --> O(n)
+// O(100 × n) --> O(n)
+// O(25) --> O(1)
+// O(n^2 + n^3) --> O(n^3)
+// O(n + n + n + n) --> O(n)
+// O(1000 × log(n) + n) --> O(logn)
+// O(1000 × n × log(n) + n) --> O(nlog(n))
+// O(2^n + n^2) --> O(2^n)
+// O(5 + 3 + 1) --> O(n)
+
+
+// Step 2
 function logUpTo(n) {
   for (let i = 1; i <= n; i++) {
     console.log(i);
@@ -82,12 +98,20 @@ function vowelsCounts(word) {
 // True or false: n2 * n is O(n^3).
   // False. Arithemetic operation --- Constant
 // True or false: n2 + n is O(n).
-  //
+  // True
 // What’s the time complexity of the .indexOf array method?
+  // O(n)
 // What’s the time complexity of the .includes array method?
+  // O(n)
 // What’s the time complexity of the .every array method?
+  // O(n)
 // What’s the time complexity of the .sort array method?
+  // O(nlogn)
 // What’s the time complexity of the .unshift array method?
+  // O(n)
 // What’s the time complexity of the .push array method?
+  // O(1)
 // What’s the time complexity of the .pop array method?
+  // O(1)
 // What’s the time complexity of the Object.keys() function?
+  // o(n)
